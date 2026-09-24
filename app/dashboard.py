@@ -10,7 +10,7 @@ from app.routes.charts import get_asset_chart
 dash_app = dash.Dash(
     __name__,
     requests_pathname_prefix="/dashboard/",
-    routes_pathname_prefix="/dashboard/"
+    routes_pathname_prefix="/"
 )
 
 dash_app.layout = html.Div(
