@@ -28,6 +28,7 @@ financial-analytics-dashboard/
     └── routes/
         ├── __init__.py
         └── charts.py        # REST API endpoints and Pandas processing
+```
 
 ## 🛠️ Local Setup & Installation
 ### Prerequisites: Ensure you have Docker and Docker Compose installed on your machine.
